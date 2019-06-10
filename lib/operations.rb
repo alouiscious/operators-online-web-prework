@@ -1,4 +1,3 @@
-require 'pry'
 
 def unsafe?(speed)
 speed = 75
@@ -7,7 +6,6 @@ speed = 75
 	else
 		'safe'
 	end
-binding.pry
 end
 
 
