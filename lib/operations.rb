@@ -1,10 +1,9 @@
-require = 'Pry'
 def unsafe?(speed)
-speed = 60
-if speed > 60
-binding.pry
+speed = 75
+if speed < 40 || speed > 60
+	"unsafe"
 else
-
+	'safe'
 end
 
 
